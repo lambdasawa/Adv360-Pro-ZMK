@@ -1,1 +1,19 @@
-[]
+[
+	{
+		"names": [
+			"RGB_MEFS_CMD_5"
+		],
+		"description": "RGB_MEFS_CMD_5",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	}
+]
