@@ -48,7 +48,7 @@
             >;
         };
 
-        layer_keypad {
+        layer_SYMBOL {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
@@ -58,13 +58,13 @@
             >;
         };
 
-        layer_fn {
+        layer_FN {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+ &trans    &trans         &trans         &trans          &trans           &trans            &trans                                                  &trans       &trans            &trans             &trans                &trans                 &trans  &trans
+ &trans  &kp PLUS      &kp MINUS   &kp ASTERISK       &kp SLASH      &kp PERCENT            &trans                                                  &trans  &kp AT_SIGN         &kp COLON      &kp SEMICOLON      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans
+ &trans  &kp HASH  &kp AMPERSAND       &kp PIPE       &kp EQUAL  &kp EXCLAMATION            &trans  &trans  &trans                  &trans  &trans  &trans    &kp TILDE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+ &trans     &none     &kp DOLLAR  &kp BACKSLASH  &kp UNDERSCORE     &kp QUESTION                            &trans                  &trans                    &kp GRAVE            &kp LT             &kp GT        &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans
+ &trans    &trans         &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                         &trans             &trans                &trans                 &trans  &trans
             >;
         };
 
