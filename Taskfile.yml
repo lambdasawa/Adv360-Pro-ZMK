@@ -2,7 +2,7 @@ version: 3
 
 tasks:
   actions:
-    - gh run watch
+    - gh run watch || true
     - gh run download --name firmware
     - mv *left.uf2 ~/Desktop/left.uf2 && mv *right.uf2 ~/Desktop/right.uf2
 
