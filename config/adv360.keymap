@@ -64,7 +64,7 @@
  &trans   &kp PLUS      &kp MINUS   &kp ASTERISK       &kp SLASH      &kp PERCENT            &trans                                                  &trans  &kp AT_SIGN         &kp COLON      &kp SEMICOLON      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans
  &trans   &kp HASH  &kp AMPERSAND       &kp PIPE       &kp EQUAL  &kp EXCLAMATION            &trans  &trans  &trans                  &trans  &trans  &trans    &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
  &trans  &kp CARET     &kp DOLLAR  &kp BACKSLASH  &kp UNDERSCORE     &kp QUESTION                             &mo 3                   &mo 3                    &kp TILDE            &kp LT             &kp GT        &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans
- &trans     &trans         &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                         &trans             &trans                &trans                 &trans  &trans
+ &trans     &trans         &trans       &kp HOME         &kp END                             &trans  &trans  &trans                  &trans  &trans  &trans                    &kp PAGE_UP      &kp PAGE_DOWN                &trans                 &trans  &trans
             >;
         };
 
